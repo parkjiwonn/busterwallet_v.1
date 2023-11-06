@@ -7,14 +7,18 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "near-api-js": "^2.1.4",
     "pinia": "^2.0.13",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^1.0.7",
+    "@crxjs/vite-plugin": "^1.0.14",
     "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
     "rollup-plugin-chrome-extension": "^3.6.9",
+    "tailwindcss": "^3.3.5",
     "vite": "^2.9.5"
   }
 }
